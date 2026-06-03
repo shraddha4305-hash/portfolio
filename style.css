@@ -1,0 +1,24 @@
+html{scroll-behavior:smooth;}
+body{font-family:'Segoe UI',sans-serif;background:#0f172a;color:white;overflow-x:hidden;}
+.navbar{background:rgba(0,0,0,0.4);backdrop-filter:blur(10px);}
+.nav-link{color:white!important;font-weight:600;}
+.nav-link:hover{color:#00e5ff!important;}
+.hero{height:100vh;display:flex;justify-content:center;align-items:center;text-align:center;background:linear-gradient(135deg,#667eea,#764ba2,#ff6b6b);background-size:300% 300%;animation:gradient 8s ease infinite;}
+@keyframes gradient{0%{background-position:0% 50%;}50%{background-position:100% 50%;}100%{background-position:0% 50%;}}
+.hero h1{font-size:3rem;}
+.hero h2{font-size:4rem;font-weight:bold;color:#00fff7;text-shadow:0 0 20px cyan;}
+.university{margin-top:10px;margin-bottom:15px;font-weight:600;color:#fff;}
+.hero p{font-size:1.3rem;}
+.btn-custom{background:#00fff7;color:black;padding:12px 30px;font-weight:bold;border-radius:30px;transition:.4s;border:none;}
+.btn-custom:hover{transform:scale(1.08);}
+.section-title{text-align:center;margin-bottom:40px;font-size:2.5rem;font-weight:bold;color:#00fff7;}
+.skill-box{max-width:700px;margin:auto;}
+.progress{height:25px;margin-bottom:20px;border-radius:20px;}
+.project-card{background:rgba(255,255,255,.1);backdrop-filter:blur(15px);padding:30px;border-radius:20px;text-align:center;transition:.4s;height:100%;}
+.project-card:hover{transform:translateY(-10px);box-shadow:0 0 25px cyan;}
+.project-card i{color:#00fff7;margin-bottom:15px;}
+.contact-form{max-width:600px;margin:auto;}
+.form-control{background:#1e293b;border:none;color:white;}
+.form-control:focus{background:#1e293b;color:white;box-shadow:none;}
+footer{background:black;padding:20px;text-align:center;margin-top:30px;}
+.success-message{display:none;color:#00ff99;font-weight:bold;margin-top:20px;font-size:18px;}
